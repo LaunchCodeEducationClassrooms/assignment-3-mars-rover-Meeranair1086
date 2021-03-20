@@ -13,7 +13,7 @@ var gradeReporter = {
      }
 };
 
-jasmine.getEnv().clearReporters();              
+jasmine.getEnv().clearReporters();             
 jasmine.getEnv().addReporter(gradeReporter);
 
 exports.array = studentSpecs;
